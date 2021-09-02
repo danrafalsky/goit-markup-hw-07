@@ -1,17 +1,23 @@
 {
-    "LiveSassCompile.settings.formats": [
+    "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "~/../css"
+            "savePath": "/css"
         },
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "~/../css"
+            "savePath": "/css"
         }
     ],
-    "LiveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-    "LiveSassCompile.settings.generateMap": true,
-    "LiveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
 }
